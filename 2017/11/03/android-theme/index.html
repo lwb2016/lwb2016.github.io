@@ -79,13 +79,17 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="没有梦想的咸鱼">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="安卓沉浸式状态栏的全解析 1.主题中设置1234567891011121314151617181920//主题设置values &amp;lt;19&amp;lt;!--透明的主题设置--&amp;gt;&amp;lt;style name=&amp;quot;StatusTranslucentTheme&amp;quot; parent=&amp;quot;AppTheme&amp;quot;&amp;gt;    &amp;lt;!--在Android 4.4之前的版本上">
+<meta property="og:type" content="article">
+<meta property="og:title" content="安卓沉浸式状态栏">
+<meta property="og:url" content="http://yoursite.com/2017/11/03/android-theme/index.html">
 <meta property="og:site_name" content="没有梦想的咸鱼">
+<meta property="og:description" content="安卓沉浸式状态栏的全解析 1.主题中设置1234567891011121314151617181920//主题设置values &amp;lt;19&amp;lt;!--透明的主题设置--&amp;gt;&amp;lt;style name=&amp;quot;StatusTranslucentTheme&amp;quot; parent=&amp;quot;AppTheme&amp;quot;&amp;gt;    &amp;lt;!--在Android 4.4之前的版本上">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-11-03T06:14:34.179Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="没有梦想的咸鱼">
+<meta name="twitter:title" content="安卓沉浸式状态栏">
+<meta name="twitter:description" content="安卓沉浸式状态栏的全解析 1.主题中设置1234567891011121314151617181920//主题设置values &amp;lt;19&amp;lt;!--透明的主题设置--&amp;gt;&amp;lt;style name=&amp;quot;StatusTranslucentTheme&amp;quot; parent=&amp;quot;AppTheme&amp;quot;&amp;gt;    &amp;lt;!--在Android 4.4之前的版本上">
 
 
 
@@ -115,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/11/03/android-theme/"/>
 
 
 
 
 
-  <title>没有梦想的咸鱼</title>
+  <title>安卓沉浸式状态栏 | 没有梦想的咸鱼</title>
   
 
 
@@ -140,8 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,9 +217,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -246,9 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/11/03/android-theme/" itemprop="url">安卓沉浸式状态栏</a></h1>
+          <h1 class="post-title" itemprop="name headline">安卓沉浸式状态栏</h1>
         
 
         <div class="post-meta">
@@ -298,14 +299,10 @@
       
 
       
-        
-          
-            <h1 id="安卓沉浸式状态栏的全解析"><a href="#安卓沉浸式状态栏的全解析" class="headerlink" title="安卓沉浸式状态栏的全解析"></a>安卓沉浸式状态栏的全解析</h1><hr>
+        <h1 id="安卓沉浸式状态栏的全解析"><a href="#安卓沉浸式状态栏的全解析" class="headerlink" title="安卓沉浸式状态栏的全解析"></a>安卓沉浸式状态栏的全解析</h1><hr>
 <h2 id="1-主题中设置"><a href="#1-主题中设置" class="headerlink" title="1.主题中设置"></a>1.主题中设置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">//主题设置</div><div class="line">values &lt;19</div><div class="line">&lt;!--透明的主题设置--&gt;</div><div class="line">&lt;style name=&quot;StatusTranslucentTheme&quot; parent=&quot;AppTheme&quot;&gt;</div><div class="line">    &lt;!--在Android 4.4之前的版本上运行，直接跟随系统主题--&gt;</div><div class="line">&lt;/style&gt;</div><div class="line"></div><div class="line">values-v19 5.0</div><div class="line">&lt;style name=&quot;StatusTranslucentTheme&quot; parent=&quot;Theme.AppCompat.Light.DarkActionBar&quot;&gt;</div><div class="line">        &lt;item name=&quot;android:windowTranslucentStatus&quot;&gt;true&lt;/item&gt;</div><div class="line">        &lt;item name=&quot;android:windowTranslucentNavigation&quot;&gt;true&lt;/item&gt;</div><div class="line">&lt;/style&gt;</div><div class="line"></div><div class="line">values-v21 6.0</div><div class="line">&lt;style name=&quot;StatusTranslucentTheme&quot; parent=&quot;Theme.AppCompat.Light.DarkActionBar&quot;&gt;</div><div class="line">        &lt;item name=&quot;android:windowTranslucentStatus&quot;&gt;false&lt;/item&gt;</div><div class="line">        &lt;item name=&quot;android:windowTranslucentNavigation&quot;&gt;true&lt;/item&gt;</div><div class="line">        &lt;!--Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色--&gt;</div><div class="line">        &lt;item name=&quot;android:statusBarColor&quot;&gt;@android:color/transparent&lt;/item&gt;</div><div class="line">&lt;/style&gt;</div></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line">public class ToolBarUi extends AppCompatActivity &#123;</div><div class="line"></div><div class="line">    View parentView;</div><div class="line">    @BindView(R.id.toolbar)</div><div class="line">    Toolbar mToolbar;</div><div class="line"></div><div class="line"></div><div class="line">    @Override</div><div class="line">    protected void onCreate(Bundle savedInstanceState) &#123;</div><div class="line">        super.onCreate(savedInstanceState);</div><div class="line">        setContentView(R.layout.activity_tool_bar_ui);</div><div class="line">        ButterKnife.bind(this);</div><div class="line">        mToolbar.setTitle(&quot;&quot;);</div><div class="line">        //setSupportActionBar(mToolbar);</div><div class="line">        //获取到该界面的根布局（Framelayout）</div><div class="line">        ViewGroup contentFrameLayout = (ViewGroup) findViewById(Window.ID_ANDROID_CONTENT);</div><div class="line">        //获取根布局下的第一个view（不建议使用merge的布局使用）</div><div class="line">        parentView = contentFrameLayout.getChildAt(0);</div><div class="line">        if (parentView != null &amp;&amp; Build.VERSION.SDK_INT &gt;= 14) &#123;</div><div class="line">            //代码添加属性，也可以在xml文件中进行设置</div><div class="line">            parentView.setFitsSystemWindows(true);</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    //更换背景和toolbar的颜色</div><div class="line">    private void setParentBackgroudColor(int color) &#123;</div><div class="line">        if (parentView != null) &#123;</div><div class="line">            //设置背景色（状态栏的蓝色会随着背景作出相应的改变）</div><div class="line">            parentView.setBackgroundColor(color);</div><div class="line">            //改变toobar的颜色保持两者的一致</div><div class="line">            mToolbar.setBackgroundColor(color);</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="2-代码中设置"><a href="#2-代码中设置" class="headerlink" title="2.代码中设置"></a>2.代码中设置</h2>
-          
-        
       
     </div>
     
@@ -322,12 +319,12 @@
       
 
       
+      
+      
 
       
 
       
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -337,10 +334,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -348,6 +346,8 @@
 
 
           
+  
+
 
         </div>
         
@@ -368,8 +368,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -413,6 +422,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#安卓沉浸式状态栏的全解析"><span class="nav-number">1.</span> <span class="nav-text">安卓沉浸式状态栏的全解析</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-主题中设置"><span class="nav-number">1.1.</span> <span class="nav-text">1.主题中设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-代码中设置"><span class="nav-number">1.2.</span> <span class="nav-text">2.代码中设置</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -532,6 +557,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
 
   
 
